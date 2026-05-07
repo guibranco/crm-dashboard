@@ -1,12 +1,19 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Users, Package, Target, ClipboardList, LayoutDashboard, UserCog } from 'lucide-react';
-import Dashboard from './pages/Dashboard';
-import Products from './pages/Products';
-import Customers from './pages/Customers';
-import Campaigns from './pages/Campaigns';
-import Orders from './pages/Orders';
-import Supervisor from './pages/Supervisor';
+import React from "react";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {
+  Users,
+  Package,
+  Target,
+  ClipboardList,
+  LayoutDashboard,
+  UserCog,
+} from "lucide-react";
+import Dashboard from "./pages/Dashboard";
+import Products from "./pages/Products";
+import Customers from "./pages/Customers";
+import Campaigns from "./pages/Campaigns";
+import Orders from "./pages/Orders";
+import Supervisor from "./pages/Supervisor";
 
 function App() {
   return (
@@ -18,12 +25,24 @@ function App() {
             <h1 className="text-2xl font-bold text-gray-800">Sales CRM</h1>
           </div>
           <div className="space-y-2">
-            <NavLink to="/" icon={<LayoutDashboard size={20} />}>Dashboard</NavLink>
-            <NavLink to="/products" icon={<Package size={20} />}>Products</NavLink>
-            <NavLink to="/customers" icon={<Users size={20} />}>Customers</NavLink>
-            <NavLink to="/campaigns" icon={<Target size={20} />}>Campaigns</NavLink>
-            <NavLink to="/orders" icon={<ClipboardList size={20} />}>Orders</NavLink>
-            <NavLink to="/supervisor" icon={<UserCog size={20} />}>Supervisor</NavLink>
+            <NavLink to="/" icon={<LayoutDashboard size={20} />}>
+              Dashboard
+            </NavLink>
+            <NavLink to="/products" icon={<Package size={20} />}>
+              Products
+            </NavLink>
+            <NavLink to="/customers" icon={<Users size={20} />}>
+              Customers
+            </NavLink>
+            <NavLink to="/campaigns" icon={<Target size={20} />}>
+              Campaigns
+            </NavLink>
+            <NavLink to="/orders" icon={<ClipboardList size={20} />}>
+              Orders
+            </NavLink>
+            <NavLink to="/supervisor" icon={<UserCog size={20} />}>
+              Supervisor
+            </NavLink>
           </div>
         </nav>
 
@@ -43,7 +62,15 @@ function App() {
   );
 }
 
-function NavLink({ to, children, icon }: { to: string; children: React.ReactNode; icon: React.ReactNode }) {
+function NavLink({
+  to,
+  children,
+  icon,
+}: {
+  to: string;
+  children: React.ReactNode;
+  icon: React.ReactNode;
+}) {
   return (
     <Link
       to={to}
