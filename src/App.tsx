@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Users, Package, Target, ClipboardList, LayoutDashboard, UserCog } from 'lucide-react';
 import Dashboard from './pages/Dashboard';
 import Products from './pages/Products';
