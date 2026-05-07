@@ -40,17 +40,17 @@ Team performance command center with individual seller metrics (sales, customers
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-| --- | --- |
-| ⚛️ UI Framework | [React 19](https://react.dev/) |
-| 🔷 Language | [TypeScript 6](https://www.typescriptlang.org/) |
-| ⚡ Build Tool | [Vite 8](https://vite.dev/) |
-| 🎨 Styling | [Tailwind CSS 4](https://tailwindcss.com/) |
-| 🗄️ Backend | [Supabase](https://supabase.com/) |
-| 🔀 Routing | [React Router v7](https://reactrouter.com/) |
-| 🖼️ Icons | [Lucide React](https://lucide.dev/) |
-| 📅 Dates | [date-fns v4](https://date-fns.org/) |
-| 🔗 CSS Utils | [clsx](https://github.com/lukeed/clsx) + [tailwind-merge](https://github.com/dcastil/tailwind-merge) |
+| Layer           | Technology                                                                                           |
+| --------------- | ---------------------------------------------------------------------------------------------------- |
+| ⚛️ UI Framework | [React 19](https://react.dev/)                                                                       |
+| 🔷 Language     | [TypeScript 6](https://www.typescriptlang.org/)                                                      |
+| ⚡ Build Tool   | [Vite 8](https://vite.dev/)                                                                          |
+| 🎨 Styling      | [Tailwind CSS 4](https://tailwindcss.com/)                                                           |
+| 🗄️ Backend      | [Supabase](https://supabase.com/)                                                                    |
+| 🔀 Routing      | [React Router v7](https://reactrouter.com/)                                                          |
+| 🖼️ Icons        | [Lucide React](https://lucide.dev/)                                                                  |
+| 📅 Dates        | [date-fns v4](https://date-fns.org/)                                                                 |
+| 🔗 CSS Utils    | [clsx](https://github.com/lukeed/clsx) + [tailwind-merge](https://github.com/dcastil/tailwind-merge) |
 
 ---
 
@@ -121,13 +121,13 @@ src/
 
 ## 🗺️ Navigation
 
-| Route | Page | Description |
-| --- | --- | --- |
-| `/` | 🏠 Dashboard | Sales overview & alerts |
-| `/customers` | 👥 Customers | Customer management |
-| `/products` | 📦 Products | Product catalog |
-| `/campaigns` | 📣 Campaigns | Campaign tracking |
-| `/orders` | 🧾 Orders | Order history |
+| Route         | Page          | Description              |
+| ------------- | ------------- | ------------------------ |
+| `/`           | 🏠 Dashboard  | Sales overview & alerts  |
+| `/customers`  | 👥 Customers  | Customer management      |
+| `/products`   | 📦 Products   | Product catalog          |
+| `/campaigns`  | 📣 Campaigns  | Campaign tracking        |
+| `/orders`     | 🧾 Orders     | Order history            |
 | `/supervisor` | 🧑‍💼 Supervisor | Team & ticket management |
 
 ---
